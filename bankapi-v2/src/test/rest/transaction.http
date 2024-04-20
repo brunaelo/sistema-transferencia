@@ -1,0 +1,22 @@
+@URL=http://localhost:8080/transaction
+
+
+### TRANSFER
+
+
+
+
+### WITHDRAW
+
+
+
+
+### DEPOSIT
+POST {{URL}}/depoist
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "receiverAccountNumber": 12345
+}
+
